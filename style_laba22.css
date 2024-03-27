@@ -1,0 +1,48 @@
+body{
+    background-image: url(imag/dog.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+
+
+.form-group {
+    margin: 20px 0;
+    font-size: 1rem;
+    color: azure;
+}
+
+h1{
+    color:azure;
+    text-align: center;
+}
+
+.b{
+    width: 5cm;
+    height: 1cm;
+    background-color: rgba(152, 3, 163, 0.601);
+    color:azure;
+    border: 2px solid azure;
+    border-radius: 15px;
+    font-size: large;
+    margin-left: 18%;
+}
+
+input {
+    font-size: inherit;
+}
+* { font-family:'Monaco'; }
+
+.form2s{
+    position: relative;
+    background-color:rgba(153, 122, 182, 0.578);
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: auto;
+    height: inherit;
+    width: 300px;
+    margin-top: 5cm;
+}

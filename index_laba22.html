@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="style_laba22.css">
+</head>
+<body>
+<main>
+    <h1>Форма регистрации</h1>
+    <div class="form2">
+        <form method="post" action="https://httpbin.org/post" class="form2s">
+            <div class="form-group">
+                <!--p>Логин</p-->
+                <label for="uesname">Логин:</label>
+                <input 
+                    type="text" 
+                    name="uesname" 
+                    id="uesname" 
+                    placeholder="Введите логин" required>
+            </div>
+
+            <div class="form-group">
+                <!--p>Пароль</p-->
+                <label for="pass">Пароль:</label>
+                <input 
+                    type="password" 
+                    name="password" 
+                    id="pass" 
+                    placeholder="Введите пароль" required>
+            </div>
+
+            <div class="form-group">
+                <!--p>Запомни</p-->
+                <input 
+                    type="checkbox" id="remember">
+                <label for="remember">Запомнить меня</label></div>
+            <!--p>Войти</p-->
+            <div class="form-group">
+            <button type="submit" class="b">Войти</button>
+            </div>
+        </form>
+    </div>
+</main>
+    
+</body>
+</html>
